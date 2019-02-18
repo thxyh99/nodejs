@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "This is a sample\u001b[D\u001b[D\u001b[D\u001b[i\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cnodejs project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thxyh99/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "thxyh99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thxyh99/nodejs/issues"
+  },
+  "homepage": "https://github.com/thxyh99/nodejs#readme"
+}
