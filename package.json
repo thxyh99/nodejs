@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thxyh99/nodejs/issues"
   },
-  "homepage": "https://github.com/thxyh99/nodejs#readme"
+  "homepage": "https://github.com/thxyh99/nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
