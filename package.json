@@ -1,7 +1,7 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "This is a sample\u001b[D\u001b[D\u001b[D\u001b[i\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cnodejs project.",
+  "description": "This is a simple nodejs project.",
   "main": "index.js",
   "scripts": {
     "test": "test"
