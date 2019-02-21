@@ -24,11 +24,11 @@ You can see your current `npm` config by entering `npm config list` on the comma
 
 There are a number of defaults you can set; author name, author email, author url, the license, and the version. To set them, you can enter them on the command line or use `npm config edit` to open up the config file in your text editor. The command line is easy enough though, you can set all five defaults like so:
 
-1. npm set init.author.name "Your name"
-1. npm set init.author.email "your@email.com"
-1. npm set init.author.url "https://your-url.com"
-1. npm set init.license "MIT"
-1. npm set init.version "1.0.0"
+     npm set init.author.name "Your name"
+     npm set init.author.email "your@email.com"
+     npm set init.author.url "https://your-url.com"
+     npm set init.license "MIT"
+     npm set init.version "1.0.0"
 
 Once you have that customised to your liking, `npm init -y` will always produce the right settings.
 
@@ -36,15 +36,15 @@ Once you have that customised to your liking, `npm init -y` will always produce 
 
 There are some improvements that I’d make to Tierney’s commands, though I appreciate he was constrained by Twitter. Here’s a bash script I have come up with inspired by his tweet.
 
-1. - function node-project {
-1. -   git init
-1. -   npx license $(npm get init.license) -o "$(npm get init.author.name)" > LICENSE
-1. -   npx gitignore node
-1. -   npx covgen "$(npm get init.author.email)"
-1. -   npm init -y
-1. -   git add -A
-1. -   git commit -m "Initial commit"
-1. - }
+    function node-project {
+       git init
+       npx license $(npm get init.license) -o "$(npm get init.author.name)" > LICENSE
+       npx gitignore node
+       npx covgen "$(npm get init.author.email)"
+       npm init -y
+       git add -A
+       git commit -m "Initial commit"
+     }
 
 To the original I’ve added fetching the license type, the author name and email from the `npm init` defaults. I’ve also initialised a new git repository and committed the results of this script as the “Initial commit”.
 
